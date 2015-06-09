@@ -10,7 +10,7 @@ CREATE TABLE teleport (
   loc_z decimal(9,0) default NULL,
   price decimal(6,0) default NULL,
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- 
 -- Dumping data for table `teleport`

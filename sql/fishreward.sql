@@ -9,7 +9,7 @@ CREATE TABLE `fishreward` (
   `minchance` int(3) NOT NULL default '0',
   `maxchance` int(3) NOT NULL default '0',
   PRIMARY KEY  (`fishid`,`rewardid`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 --
 --  Records for table fishreward
 --

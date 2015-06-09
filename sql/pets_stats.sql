@@ -26,7 +26,7 @@ CREATE TABLE `pets_stats` (
   `hpregen` int(11) NOT NULL default '0',
   `mpregen` int(11) NOT NULL default '0',
   PRIMARY KEY  (`typeID`,`level`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 #----------------------------
 # Records for table pets_stats
 #----------------------------

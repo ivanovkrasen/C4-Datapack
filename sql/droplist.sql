@@ -12,7 +12,7 @@ CREATE TABLE `droplist` (
   PRIMARY KEY  (`mobId`,`itemId`,`sweep`),
   KEY `key_mobId` (`mobId`)
 
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 --
 -- Dumping data for table `droplist`

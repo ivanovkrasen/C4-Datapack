@@ -21,7 +21,7 @@ CREATE TABLE `armor` (
   `crystal_count` int(4) default NULL,
   `sellable` varchar(5) default NULL,
   PRIMARY KEY  (`item_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- 
 -- Dumping data for table `armor`

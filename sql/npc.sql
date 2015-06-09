@@ -44,7 +44,7 @@ CREATE TABLE `npc` (
   `isUndead` int(11) default '0',
   `absorb_level` decimal(2,0) default '0',
   PRIMARY KEY  (`id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- 
 -- Dumping data for table `npc`

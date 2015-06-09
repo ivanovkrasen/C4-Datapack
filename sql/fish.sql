@@ -11,7 +11,7 @@ CREATE TABLE `fish` (
   `type` int(2) NOT NULL default '0',
   `speed` INT(11) UNSIGNED  default '0',
   PRIMARY KEY  (`id`,`level`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 -- 
 --  Records for table fish
 -- 

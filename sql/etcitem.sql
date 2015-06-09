@@ -20,7 +20,7 @@ CREATE TABLE `etcitem` (
   `oldtype` varchar(100) NOT NULL default '',
   `drop_category` enum('0','1','2') NOT NULL default '2',
   PRIMARY KEY  (`item_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- 
 -- Dumping data for table `etcitem`
